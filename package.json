@@ -1,0 +1,19 @@
+{
+  "name": "tpfinal",
+  "version": "1.0.0",
+  "description": "trabajo final integrador programacion III",
+  "main": "src/turnos.js",
+  "scripts": {
+    "start": "node src/turnos.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/turnos.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mysql2": "^3.22.3"
+  }
+}
